@@ -1,0 +1,27 @@
+.page {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    .font();
+    background-color: #ffffff;
+
+    &__main {
+        flex-grow: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .page__main {
+        margin-top: -96px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page__main {
+        margin-top: -104px;
+    }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Skilled e-learning landing page</title>
+</head>
+<body class="page">
+  <header class="page__header header">
+    <div class="header__container">
+      <a class="header__link">
+        <img class="header__logo" src="./images/logo-dark.svg" alt="Skilled logo" width="89" height="35">
+      </a>
+      <a class="header__button button button--dark" href="#">Get started</a>
+    </div>
+  </header>
+  <main class="page__main">
+    <h1 class="visually-hidden">Skilled e-learning landing page</h1>
+    <section class="promo">
+      <h2 class="visually-hidden">About platform</h2>
+      <div class="promo__container">
+        <p class="promo__lead">Maximize skill, minimize budget</p>
+        <p class="promo__text">Our modern courses across a range of in-demand skills will give you the
+          knowledge you need to live the life you want.</p>
+        <a class="promo__button button" href="#">Get started</a>
+      </div>
+      <picture>
+        <source type="image/webp" media="(min-width: 1200px)" srcset="./images/image-hero-desktop.webp 1x, ./images/image-hero-desktop@2x.webp 2x">
+        <source type="image/webp" media="(min-width: 768px)" srcset="./images/image-hero-tablet.webp 1x, ./images/image-hero-tablet@2x.webp 2x">
+        <source type="image/webp" srcset="./images/image-hero-mobile.webp 1x, ./images/image-hero-mobile@2x.webp 2x">
+        <source media="(min-width: 1200px)" srcset="./images/image-hero-desktop.png 1x, ./images/image-hero-tablet@2x.png 2x">
+        <source media="(min-width: 768px)" srcset="./images/image-hero-tablet.png 1x, ./images/image-hero-tablet@2x.jpg 2x">
+        <img class="promo__image" src="./images/image-hero-mobile.png" srcset="./images/image-hero-mobile@2x.png 2x" width="435" height="409" alt="29k of members, 1451 of course hours">
+      </picture>
+    </section>
+    <section class="courses">
+      <h2 class="visually-hidden">Courses</h2>
+      <p class="courses__lead">Check out our most popular courses!</p>
+      <ul class="courses__list">
+        <li class="courses__item">
+          <article class="course course--animation">
+            <h2 class="course__title">Animation</h2>
+            <p class="course__text">Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.</p>
+            <a class="course__link" href="#">Get started</a>
+          </article>
+        </li>
+        <li class="courses__item">
+          <article class="course course--design">
+            <h2 class="course__title">Design</h2>
+            <p class="course__text">Create beautiful, usable interfaces to help shape the future of
+              how the web looks.</p>
+            <a class="course__link" href="#">Get started</a>
+          </article>
+        </li>
+        <li class="courses__item">
+          <article class="course course--photo">
+            <h2 class="course__title">Photography</h2>
+            <p class="course__text">Explore critical fundamentals like lighting, composition, and focus
+              to capture exceptional photos.</p>
+            <a class="course__link" href="#">Get started</a>
+          </article>
+        </li>
+        <li class="courses__item">
+          <article class="course course--crypto">
+            <h2 class="course__title">Crypto</h2>
+            <p class="course__text">All you need to know to Get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
+            <a class="course__link" href="#">Get started</a>
+          </article>
+        </li>
+        <li class="courses__item">
+          <article class="course course--business">
+            <h2 class="course__title">Business</h2>
+            <p class="course__text">A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
+            <a class="course__link" href="#">Get started</a>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <a class="footer__link">
+        <img class="footer__logo" src="./images/logo-light.svg" alt="Skilled logo" width="89" height="35">
+      </a>
+      <a class="footer__button button button--light" href="#">Get started</a>
+    </div>
+  </footer>
+</body>
+</html>

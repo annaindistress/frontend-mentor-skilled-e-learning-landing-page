@@ -1,0 +1,40 @@
+.button {
+    display: inline-block;
+    padding: 10px 24px;
+    .font(700, 16px, @color: #ffffff);
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: @gradient-light;
+    border-radius: 28px;
+
+    &:hover,
+    &:focus {
+        background: @gradien-transparent, @gradient-light;
+    }
+
+    &--light {
+        background: @gradien-dark;
+
+        &:hover,
+        &:focus {
+            background: @gradien-transparent, @gradien-dark;
+        }
+    }
+
+    &--dark {
+        background: @color-secondary-dark;
+
+        &:hover,
+        &:focus {
+            background: @color-primary-violet;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .button {
+        padding: 14px 32px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,19 @@
+.title(@font-size: 24px, @line-height: 28px, @color: @color-secondary-dark) {
+    font-weight: 800;
+    font-size: @font-size;
+    line-height: @line-height;
+    color: @color;
+};
+
+.font(@font-weight: 500, @font-size: 18px, @line-height: 28px, @color: @color-secondary-light) {
+    font-weight: @font-weight;
+    font-size: @font-size;
+    line-height: @line-height;
+    color: @color;
+};
+
+.course-icon(@icon-url) {
+    &::before {
+        background-image: @icon-url, @gradient-light;
+    }
+};
